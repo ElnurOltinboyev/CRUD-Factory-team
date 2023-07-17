@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<div class="container">
+    <h2 class="text-center mt-3">Factory team</h2>
+    
+    <div class="row">
+        <div class="col-9">
+            <input type="text" placeholder="ID" class="form-control mt-3 bg-light" id="id">
+        </div>
+        
+        <div class="col-9">
+            <input type="text" placeholder="Worker Name" class="form-control mt-3" id="name">
+        </div>
+
+        <div class="col-9 d-flex">
+            <input type="text" placeholder="Position" class="form-control mt-3 mr-2" id="position">
+            <input type="text" placeholder="Salary" class="form-control mt-3 ml-2" id="salary">
+        </div>
+
+        <div class="col-4 mt-3">
+            <button class="btn btn-success btn-block" onclick="addWorker()">Create</button>
+        </div>
+
+        <div class="col-4 mt-3">
+            <button class="btn btn-danger btn-block" onclick="deleteAll()">Delete All</button>
+        </div>
+
+        <div class="col-9">
+            <table class="table table-striped mt-5">
+                <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Worker Name</th>
+                    <th>Position</th>
+                    <th>Salary</th>
+                    <th>Edit</th>
+                    <th>Delete</th>
+                </tr>
+                </thead>
+
+                <tbody id="result">
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+<script src="js/bootstrap.js"></script>
+<script src="js/jquery-3.3.1.slim.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.row{
+    padding-left: 230px;
+}
+
+.col-4{
+    margin-left: 25px;
+}
+
+img{
+    width: 30px;
+    height: 30px;
+}
